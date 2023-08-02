@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sorteio</title>
+</head>
+<body>
+  <h1>Sorteio</h1>
+  <ul>
+    <% for (const winner of winners) { %>
+      <li><%= winner.code %> - <%= winner.name %></li>
+    <% } %>
+  </ul>
+</body>
+</html>

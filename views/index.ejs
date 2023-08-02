@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Participantes</title>
+</head>
+<body>
+  <h1>Participantes</h1>
+  <ul>
+    <% for (const participant of participants) { %>
+      <li><%= participant.code %> - <%= participant.name %></li>
+    <% } %>
+  </ul>
+  <a href="/sortear">Sortear</a>
+</body>
+</html>
